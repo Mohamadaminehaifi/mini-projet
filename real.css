@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffffff; /* Fond blanc, couleur emblématique du Real Madrid */
+    color: #000;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #1d1d1b; /* Couleur noire pour contraster */
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.85em;
+    color: #FEBE10; /* Couleur dorée pour le titre */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.img-realmadrid {
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.quote {
+    background-color: #FEBE10; /* Doré pour le fond */
+    color: #1d1d1b; /* Texte en noir */
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FEBE10; /* Couleur dorée pour le bouton */
+    color: #1d1d1b;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 01s;
+}
+
+.btn:hover {
+    background-color: #ffecb3;
+    color: #000;
+}
